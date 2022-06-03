@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Record">
+            <menu>
+                <item
+                    android:id="@+id/navHH"
+                    android:icon="@drawable/baseline_home_24"
+                    android:title="three-day"
+                    ></item>
+                <item
+                    android:id="@+id/navHH1"
+                    android:icon="@drawable/ic_baseline_accessibility_24"
+                    android:title="seven-day"></item>
+                <item
+                    android:id="@+id/navHH2"
+                    android:icon="@drawable/icon_login_pw"
+                    android:title="one-month"></item>
+            </menu>
+        </item>
+        <item
+            android:title="Other">
+            <menu>
+                <item
+                    android:title="About"
+                    android:icon="@drawable/ic_baseline_format_textdirection_r_to_l_24"
+                    android:id="@+id/About"
+                    ></item>
+                <item
+                    android:title="sign out"
+                    android:icon="@drawable/ic_baseline_format_bold_24"
+                    android:id="@+id/signout"/>
+            </menu>
+        </item>
+    </group>
+</menu>

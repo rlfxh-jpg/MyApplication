@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mus1"
+        android:icon="@drawable/ic_settings"
+        android:title="单曲循环"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/mus2"
+        android:icon="@drawable/ic_settings"
+        android:title="顺序播放"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/mus3"
+        android:icon="@drawable/ic_settings"
+        android:title="随机播放"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/music"
+        android:icon="@drawable/ic_add"
+        android:title="Music"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/white"
+        android:icon="@drawable/ic_add"
+        android:title="WhiteNoise"
+        app:showAsAction="never"></item>
+</menu>

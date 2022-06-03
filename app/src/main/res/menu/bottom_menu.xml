@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/startTime0"
+        android:icon="@drawable/ic_twotone_access_alarms_24"
+        android:title="SleepAt"></item>
+    <item android:id="@+id/startTime1"
+        android:icon="@drawable/ic_baseline_access_time_24"
+        android:title="WakeUp"></item>
+    <item android:id="@+id/startTime2"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        android:title="Clock"></item>
+    <item android:id="@+id/startTime3"
+        android:icon="@drawable/ic_baseline_headset_mic_24"
+        android:title="Music"></item>
+    <item android:id="@+id/startTime4"
+        android:icon="@drawable/ic_baseline_headset_mic_24"
+        android:title="Book"></item>
+</menu>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmSettingsActivity">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.example.myapplication.MyTimePicker
+                android:id="@+id/time_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edit_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:hint="Name"/>
+
+            <Switch
+                android:id="@+id/repeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Repeat"
+                android:layout_marginHorizontal="@dimen/dp_40"
+                android:layout_marginBottom="20dp"/>
+
+            <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/repeat_ex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/dp_40">
+                        <RadioButton
+                            android:id="@+id/everyday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="Everyday"/>
+                        <RadioButton
+                            android:id="@+id/weekday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="Custom"/>
+                    </RadioGroup>
+                    <net.cachapa.expandablelayout.ExpandableLayout
+                        android:id="@+id/week_ex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.nex3z.togglebuttongroup.MultiSelectToggleGroup
+                            android:id="@+id/group_week"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:tbgChildSpacing="auto"
+                            android:layout_marginHorizontal="@dimen/dp_40">
+
+
+
+                            <com.nex3z.togglebuttongroup.button.CircularToggle
+                                android:id="@+id/mon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mo" />
+
+                            <com.nex3z.togglebuttongroup.button.CircularToggle
+                                android:id="@+id/tue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tu" />
+
+                            <com.nex3z.togglebuttongroup.button.CircularToggle
+                                android:id="@+id/wed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="We" />
+
+                            <com.nex3z.togglebuttongroup.button.CircularToggle
+                                android:id="@+id/thu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Th"/>
+
+                            <com.nex3z.togglebuttongroup.button.CircularToggle
+                                android:id="@+id/fri"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Fr"/>
+
+                            <com.nex3z.togglebuttongroup.button.CircularToggle
+                                android:id="@+id/sat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sa"/>
+
+                            <com.nex3z.togglebuttongroup.button.CircularToggle
+                                android:id="@+id/sun"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Su" />
+
+                        </com.nex3z.togglebuttongroup.MultiSelectToggleGroup>
+                    </net.cachapa.expandablelayout.ExpandableLayout>
+                </LinearLayout>
+            </net.cachapa.expandablelayout.ExpandableLayout>
+
+
+
+            <!--<Switch
+                android:id="@+id/ringtone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ringtone"
+                android:layout_marginHorizontal="@dimen/dp_40"
+                android:layout_marginBottom="20dp"/>
+            <Switch
+                android:id="@+id/vibrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vibrate"
+                android:layout_marginHorizontal="@dimen/dp_40"
+                android:layout_marginBottom="20dp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>-->
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/confirm_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_baseline_check_24"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

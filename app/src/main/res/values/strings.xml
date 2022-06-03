@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">睡眠管理</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="song">音乐</string>
+    <string name="singer">歌手</string>
+    <string name="time">时间</string>
+    <string name="sequence">顺序播放（默认）</string>
+    <string name="random">随机播放</string>
+    <string name="single">单曲循环</string>
+
+    <string name="account">请输入登录的账号</string>
+    <string name="password">请输入登录密码</string>
+    <string name="check_password">记住密码</string>
+    <string name="check_login">自动登录</string>
+    <string name="login">登录</string>
+    <string name="loading">正在加载数据</string>
+
+    <string name="content_descriptions_set_alarm_icon">Set alarm icon</string>
+
+    <!-- SLEEP QUALITY STATES-->
+    <string name="sleep_state_unhealthy">Unhealthy</string>
+    <string name="sleep_state_optimal">Optimal</string>
+    <string name="sleep_state_healthy">Healthy</string>
+    <string name="sleep_state_notrecommended">Not recommended</string>
+
+    <!-- TABS STRINGS -->
+    <string name="sleep_now_tab">Sleep now</string>
+    <string name="wake_up_at_tab">Wake up at</string>
+    <string name="alarms_tab">Alarms</string>
+
+    <!-- CARD INFO STRINGS -->
+    <string name="sleep_now_card_info_title">Going to sleep right now?</string>
+    <string name="sleep_now_card_info_summary">Choose any hour of listed below, so I will easily wake you up on time!</string>
+
+    <string name="activity_alarm_hint">Tap anywhere to dismiss alarm</string>
+
+    <!-- BUTTON STRINGS -->
+    <string name="wake_up_at_set_hour_button">Set hour</string>
+
+    <!-- LIST STRINGS -->
+    <string name="global_hour_mark">h</string>
+    <string name="global_minute_mark">min</string>
+    <string name="list_element_title_changeable">%1$d:%2$d</string>
+    <string name="list_element_summary_changeable">%1$s of sleep | %2$s</string>
+    <string name="wake_up_at_empty_list_title">Wake up on time!</string>
+    <string name="wake_up_at_empty_list_summary">Tap the \'Set hour\' button to pick a specific hour at which you want to wake up. I will create a list of hours you should fall asleep at.</string>
+    <string name="alarms_empty_list_title">Keep an eye on your alarms!</string>
+    <string name="alarms_empty_list_summary">Don\'t worry I won\'t eat them… I just remove already launched alarms, and those active - I store them safely here.</string>
+
+    <!-- MENU STRINGS -->
+    <string name="menu_settings">Settings</string>
+
+    <!-- DIALOG STRINGS -->
+    <string name="edit_alarm">Edit alarm</string>
+
+    <!-- TOAST STRINGS -->
+    <string name="toast_double_back_to_exit">Press once again to exit</string>
+
+    <!-- PREFERENCE STRINGS -->
+
+    <!-- NEW CATEGORY -->
+    <string name="pref_theme_category">Theme</string>
+
+    <string name="pref_change_theme_title">Night mode schedule</string>
+    <string-array name="pref_change_theme_titles">
+        <item>Never</item>
+        <item>Auto (Depends on time)</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="pref_change_theme_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- NEW CATEGORY -->
+
+    <!-- NEW CATEGORY -->
+
+    <string name="pref_alarm_category">Alarm</string>
+
+    <string name="pref_alarm_vibrate_when_ringing_title">Phone vibration</string>
+    <string name="pref_alarm_vibrate_when_ringing_summary">Vibrate when alarm rings</string>
+
+    <string name="pref_alarms_have_same_ringtone_switch_title">Alarms have the same ringtone</string>
+    <string name="pref_alarms_have_same_ringtone_switch_summary">Avoid configuring ringtone for every single alarm.</string>
+    <string name="pref_ringtone_select_title">Alarm ringtone</string>
+    <string name="pref_ringtone_select_default_summary">Tap to select ringtone</string>
+    <string name="pref_ringtone_select_selected_summary">Chosen ringtone: %s</string>
+
+    <string name="pref_ring_duration_title">Ring duration</string>
+    <string-array name="pref_ring_duration_titles">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="pref_ring_duration_values">
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1500000</item>
+        <item>1800000</item>
+    </string-array>
+
+    <string name="add_alarm">Add alarm</string>
+    <string name="add">Add</string>
+    <string name="empty_list_image">Empty list image</string>
+    <string name="dialog_alarm_description">Alarm will ring at %1$s, which gives you %2$s type of rest</string>
+    <string name="alarm_ringtone">Alarm ringtone</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="wakeupat_view_description">To wake up at %1$s fully rested you should fall asleep at one of the listed hours below.</string>
+    <string name="tap_to_set_alarm">Tap to set alarm</string>
+    <string name="tap_to_edit_press_and_hold_to_delete">Tap to edit, press and hold to delete</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
